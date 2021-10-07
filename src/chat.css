@@ -1,0 +1,101 @@
+.chat{
+    flex:0.65;
+    display: flex;
+    flex-direction: column;
+}
+.chat-header{
+    padding:10px;
+    height:68px;
+    display:flex;
+    align-items: center;
+    border-bottom:1px solid lightgray;
+}
+.chat-headerinfo{
+    flex:1;
+    padding-left:20px;
+    position: relative;
+    top:-8px;
+
+}
+.chat-headerinfo h4{
+    margin-bottom:4px;
+    font-size: 20px;
+}
+.chat-headerinfo p{
+    margin-top:0;
+    font-weight: 600;
+    color:grey;
+
+}
+.chat-headerright{
+    display:flex;
+    justify-content: space-between;
+    min-width:100px;
+}
+.chat-body{
+    flex:1;
+    background-image: url('https://i0.wp.com/mojok.co/wp-content/uploads//2018/06/th.jpg');
+    background-repeat: repeat;
+    background-position: center;
+    padding:30px;
+
+}
+.chat-receiver{
+    position:relative;
+    font-size:16px;
+    font-weight: 500;
+    padding:15px;
+    background-color: white;
+    border-radius: 10px;
+    width:fit-content ;
+    margin-bottom: 30px;
+
+}
+.chat-message{
+    margin-left:auto;
+    background-color:#dcf8c6;
+}
+.chat-name{
+    position:absolute;
+    top:-20px;
+    left:-0px;
+    font-size: 13px;
+    white-space: nowrap;
+}
+.chat-timestamp{
+    color:gray;
+    font-size:xx-small;
+    margin-left: 20px;
+    position:relative;
+    bottom:-10px;
+
+}
+.chat-footer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    border-top: 1px solid lightgray;
+    background-color: lightgrey;
+
+}
+.chat-footer form{
+    flex:1;
+    display:flex;
+}
+.chat-footer form input{
+    flex:1;
+    border-radius:5px;
+    padding: 10px;
+    border:none;
+
+}
+.chat-footer form button{
+    display: none;
+}
+.chat-footer > .MuiSvgIcon-root{
+    margin: 10px;
+    padding:10px;
+    color:grey;
+    font-size: 34px;
+}
