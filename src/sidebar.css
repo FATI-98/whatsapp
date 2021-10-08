@@ -4,6 +4,13 @@
     flex-direction: column;
     flex:0.35;
 }
+.sidebar-header h3{
+    
+    position:relative;
+    right:40px;
+    top:10px;
+
+}
 .sidebar-header{
     display:flex;
     justify-content: space-between;

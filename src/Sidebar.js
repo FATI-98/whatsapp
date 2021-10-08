@@ -50,6 +50,7 @@ function Sidebar() {
             <div className="sidebar-header">
                 
                <Avatar src={user?.photoURL} onClick={signout}/>
+               <h3 >{user?.displayName}</h3>
                <div className='sidebar-headerright' >
                    <IconButton>
                         <DonutLargeIcon />
